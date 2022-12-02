@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img class="img img-fluid" src="image/imac.jpg" alt="">
+            </div>
+            <div class="col" >
+                <div class="about">
+                <h1>Customize your blue 24-inch iMac with Apple M1 chip.</h1>
+                <p>M1 and macOS Monterey together take iMac to exceptional levels of performance, efficiency, and security. iMac wakes from sleep almost instantly.</p>
+                </div>
+                <br>
+                <div class="memory">
+                    <h5>Memory</h5>
+                    <button id="8gb" class="button">8GB unified memory</button>
+                    <button id="16gb" class="button">16GB unified memory</button>
+                </div>
+                <div class="storage">
+                    <h5>Storage</h5>
+                    <button id="256gb" class="button">256GB SSD Storage</button>
+                    <button id="512gb" class="button">512GB SSD Storage</button>
+                    <button id="1tb" class="button">1TB SSD Storage</button>
+                </div>
+                <div class="delivery">
+                    <h5>Storage</h5>
+                    <button id="free" class="button">Friday, Aug 25 FREE Prime Delivery</button>
+                    <button id="not-free" class="button">Friday, Aug 21 Delivery Charge 20$</button>
+                    
+                </div>
+                <div class="price mt-5">
+                    <div class="row">
+                        <div class="col">
+                            <h5>Best price</h5>
+                        </div>
+                        <div class="col">
+                            <h5 class="money">$<span id="best-price">1299</span></h5>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <h5>Extra Memory Cost</h5>
+                        </div>
+                        <div class="col">
+                            <h5 class="money">$<span id="extra-memory">0</span></h5>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <h5>Extra Storage Cost</h5>
+                        </div>
+                        <div class="col">
+                            <h5 class="money">$<span id="extra-storage">0</span></h5>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <h5>Delivery Charge</h5>
+                        </div>
+                        <div class="col">
+                            <h5 class="money">$<span id="del-cost">0</span></h5>
+                        </div>
+                    </div>
+                    
+                   
+                    <hr class="hr">
+                    <div class="row">
+                        <div class="col">
+                            <h5>Total price</h5>
+                        </div>
+                        <div class="col">
+                            <h5 class="money">$<span id="total-cost">1299</span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="bonus">
+                    <h5>Add Promo Code</h5>
+                    <div class="input-sec">
+                        <input id="promo" class="input" type="text" placeholder="Add your code">
+                        <button class="apply-btn" onclick="bonus()">Apply</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h1 class="total">Total:$<span id="bonus">1299</span></h1>
+    <script src="app.js"></script>
+</body>
+</html>

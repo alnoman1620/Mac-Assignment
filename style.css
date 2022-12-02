@@ -1,0 +1,55 @@
+.container{
+    margin-bottom: 100px;
+}
+.about{
+margin-top: 45px;
+}
+.button{
+    border: 1px solid black;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px 19px;
+    margin-bottom: 15px;
+    background-color: white;
+    
+    margin-right: 10px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.button:checked{
+    background-color: black;
+}
+.price{
+    width: 50%;
+}
+.hr{
+    border: 2px solid black;
+}
+.money{
+    text-align: end;
+}
+.bonus{
+    margin-top: 50px;
+}
+.apply-btn{
+    background-color: rgb(236, 81, 81);
+    color: white;
+    padding:5px 10px ;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 3px solid black;
+}
+.apply-btn:hover{
+    background-color: black;
+    color: white;
+}
+.input{
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.total{
+    text-align: center;
+}
